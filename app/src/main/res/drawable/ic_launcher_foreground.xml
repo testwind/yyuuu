@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central Connection Lines -->
+    <!-- Center to Right Top Child -->
+    <path
+        android:pathData="M54,54 C66,54 66,34 76,34"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Center to Right Bottom Child -->
+    <path
+        android:pathData="M54,54 C66,54 66,74 76,74"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Center to Left Top Child -->
+    <path
+        android:pathData="M54,54 C42,54 42,34 32,34"
+        android:strokeColor="#14B8A6"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Center to Left Bottom Child -->
+    <path
+        android:pathData="M54,54 C42,54 42,74 32,74"
+        android:strokeColor="#14B8A6"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Core Nodes -->
+    <!-- Central Node -->
+    <group>
+        <path
+            android:fillColor="#2563EB"
+            android:pathData="M54,44 a10,10 0 1,1 0,20 a10,10 0 1,1 0,-20" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,48 a6,6 0 1,1 0,12 a6,6 0 1,1 0,-12" />
+    </group>
+
+    <!-- Left Top Node -->
+    <path
+        android:fillColor="#14B8A6"
+        android:pathData="M32,29 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10" />
+
+    <!-- Left Bottom Node -->
+    <path
+        android:fillColor="#14B8A6"
+        android:pathData="M32,69 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10" />
+
+    <!-- Right Top Node -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M76,29 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10" />
+
+    <!-- Right Bottom Node -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M76,69 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10" />
+</vector>

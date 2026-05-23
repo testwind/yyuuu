@@ -1,0 +1,6 @@
+{
+  "name": "FreeMap Sync",
+  "description": "思维导图阅读器，支持解析 Freeplane 原始格式 (.mm)，自带高级节点折叠、自由平移缩放画布，支持 WebDAV 及设备配对跨设备同步。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
